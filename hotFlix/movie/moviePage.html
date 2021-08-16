@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/moviePage.css">
+	<title>Movie Page</title>
+</head>
+
+<body>
+	<section class="trailer-section">
+		<iframe class="trailer-link" width="560" height="315" title="YouTube video player" frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</section>
+	<div class="blur-bg"></div>
+	<div class="top-section">
+		<section>
+			<img class="poster-image" src="" alt="cover-image">
+		</section>
+	</div>
+	<main class="main">
+		<div class="play">
+			<img
+				src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLC0xLDAsNTEyKSI+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMjU2IDBjLTE0MS4xNjQwNjIgMC0yNTYgMTE0LjgzNTkzOC0yNTYgMjU2czExNC44MzU5MzggMjU2IDI1NiAyNTYgMjU2LTExNC44MzU5MzggMjU2LTI1Ni0xMTQuODM1OTM4LTI1Ni0yNTYtMjU2em0xMTIgMjc3LjMzMjAzMWgtOTAuNjY3OTY5djkwLjY2Nzk2OWMwIDExLjc3NzM0NC05LjU1NDY4NyAyMS4zMzIwMzEtMjEuMzMyMDMxIDIxLjMzMjAzMXMtMjEuMzMyMDMxLTkuNTU0Njg3LTIxLjMzMjAzMS0yMS4zMzIwMzF2LTkwLjY2Nzk2OWgtOTAuNjY3OTY5Yy0xMS43NzczNDQgMC0yMS4zMzIwMzEtOS41NTQ2ODctMjEuMzMyMDMxLTIxLjMzMjAzMXM5LjU1NDY4Ny0yMS4zMzIwMzEgMjEuMzMyMDMxLTIxLjMzMjAzMWg5MC42Njc5Njl2LTkwLjY2Nzk2OWMwLTExLjc3NzM0NCA5LjU1NDY4Ny0yMS4zMzIwMzEgMjEuMzMyMDMxLTIxLjMzMjAzMXMyMS4zMzIwMzEgOS41NTQ2ODcgMjEuMzMyMDMxIDIxLjMzMjAzMXY5MC42Njc5NjloOTAuNjY3OTY5YzExLjc3NzM0NCAwIDIxLjMzMjAzMSA5LjU1NDY4NyAyMS4zMzIwMzEgMjEuMzMyMDMxcy05LjU1NDY4NyAyMS4zMzIwMzEtMjEuMzMyMDMxIDIxLjMzMjAzMXptMCAwIiBmaWxsPSIjZmZkODBlIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" />
+			<span>PLAY</span>
+		</div>
+		<section class="first-section">
+			<h1></h1>
+			<div class="age-year-time">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<img id="trailer-button"
+				src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLDEsMCwwKSI+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMjExIDE2NC4wMjM0Mzh2MTgzLjk1MzEyNGwxMzcuOTYwOTM4LTkxLjk3NjU2MnptMCAwIiBmaWxsPSIjZmZkODBlIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtMjU2IDBjLTE0MC42MDkzNzUgMC0yNTYgMTE1LjM5MDYyNS0yNTYgMjU2czExNS4zOTA2MjUgMjU2IDI1NiAyNTYgMjU2LTExNS4zOTA2MjUgMjU2LTI1Ni0xMTUuMzkwNjI1LTI1Ni0yNTYtMjU2em0tNzUgNDA0LjAyMzQzOHYtMjk2LjA0Njg3NmwyMjIuMDM5MDYyIDE0OC4wMjM0Mzh6bTAgMCIgZmlsbD0iI2ZmZDgwZSIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" />
+			<label for="trailer-button">TRAILER</label>
+			<p class="overview"></p>
+			<div class="buttons">
+
+			</div>
+			<h3>DIRECTOR</h3>
+			<span class="director"></span>
+			<h3>STARS</h3>
+			<span class="stars"></span>
+		</section>
+		<section class="home-section">
+			<span>Back to the main page</span>
+			<button class="home-btn">
+				<img src="../images/logo.svg" alt="Hot Flex Logo" class="logo">
+			</button>
+		</section>
+		<section class="last-section">
+			<h3>MORE TO WATCH</h3>
+			<div>
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 172 172"
+					style=" fill:#000000;">
+					<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+						stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+						font-family="none" font-weight="none" font-size="none" text-anchor="none"
+						style="mix-blend-mode: normal">
+						<path d="M0,172v-172h172v172z" fill="none"></path>
+						<g fill="#666666">
+							<path
+								d="M110.55031,10.535c-0.90031,0 -1.74688,0.36281 -2.39188,0.99438l-72.52219,71.94437c-1.35719,1.34375 -1.37062,3.52063 -0.02687,4.86438l71.94437,72.53562c1.34375,1.34375 3.52063,1.35719 4.86438,0.01344l20.72062,-20.54594c1.35719,-1.34375 1.37063,-3.52062 0.02688,-4.87781l-48.96625,-49.35594l49.36937,-48.96625c1.34375,-1.34375 1.35719,-3.52062 0.01344,-4.86437l-20.54594,-20.72063c-0.65844,-0.67187 -1.55875,-1.03469 -2.48594,-1.02125z">
+							</path>
+						</g>
+					</g>
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 172 172"
+					style=" fill:#000000;">
+					<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+						stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+						font-family="none" font-weight="none" font-size="none" text-anchor="none"
+						style="mix-blend-mode: normal">
+						<path d="M0,172v-172h172v172z" fill="none"></path>
+						<g fill="#666666">
+							<path
+								d="M62.39031,10.32c-0.90031,0.01344 -1.74688,0.36281 -2.39188,0.99438l-20.72062,20.55937c-1.34375,1.34375 -1.35719,3.52063 -0.02688,4.86438l48.96625,49.36937l-49.35594,48.96625c-1.35719,1.34375 -1.37062,3.52063 -0.02687,4.86438l20.55937,20.72062c1.34375,1.35719 3.52063,1.37063 4.86438,0.02688l72.53562,-71.94438c1.34375,-1.34375 1.35719,-3.52062 0.01344,-4.87781l-71.93094,-72.52219c-0.65844,-0.67187 -1.55875,-1.03469 -2.48594,-1.02125z">
+							</path>
+						</g>
+					</g>
+				</svg>
+				<div class="posters-images"></div>
+			</div>
+		</section>
+	</main>
+	<script src="../movie/moviePage.js"></script>
+</body>
+
+</html>

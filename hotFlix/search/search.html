@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/search.css">
+	<title>Search Page</title>
+</head>
+<style>
+
+</style>
+
+<body>
+	<div class="container">
+		<nav>
+			<div class="container-nav-items">
+				<ul class="container-ul">
+					<li><img src="../images/logo.svg" alt="Hot Flex Logo" class="logo"></li>
+					<ul class="menu">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">CATALOG</a></li>
+						<li><a href="#">PRICING PLAN</a></li>
+						<li><a href="#">HELP</a></li>
+						<li><a href="#">...</a></li>
+					</ul>
+					<div class="empty-div"></div>
+					<ul class="sign-search-lan">
+						<li>
+							<form action="#" class="search-form">
+								<input type="text" name="search" id="search" placeholder="Search..." autocomplete="off"
+									value="" autocapitalize="off" autocorrect="off">
+							</form>
+							<label class="search-button" for="search">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+										stroke="#4A5568" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+							</label>
+						</li>
+						<li>
+							<select tabindex="0" placeholder="lang-switcher">
+								<option selected="" lang="en" value="/jo-en/" data-language="en" data-country="JO">EN
+								</option>
+							</select>
+						</li>
+						<li>
+							<button class="sign-in" id="sign-in">SIGN IN</button>
+							<label for="sign-in" class="import-icon">
+								<img src="../images/import.png" alt="import icon">
+							</label>
+						</li>
+					</ul>
+				</ul>
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</nav>
+		<section class="new-items">
+			<div class="container-new-items">
+				<h1>Search For <strong>Movie Name</strong></h1>
+				<section class="show-items"></section>
+				<div class="pagination">
+					<ul>
+						<!--pages or li are comes from javascript-->
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container-footer">
+				<ul class="logo-cpy-right">
+					<li><img src="../images/logo.svg" alt="Hot Flex Logo" class="logo-footer"></li>
+					<li><small>© 2020 HotFlix<br>Create by Mohammad Alzoub'i</small></li>
+				</ul>
+				<ul class="menu-footer">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contacts</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><img src="../images/up-arrow.png" alt="up-arrow" class="up-arrow"></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<script src="../search/search.js"></script>
+</body>
+
+</html>
